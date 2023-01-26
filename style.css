@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Martian+Mono:100,200,300,regular,500,600,700,800);
+
+body{
+    margin: 0;
+    font-family: 'Martian Mono',cursive;
+    background-image: url(pexels-bastian-riccardi-6176069.jpg);
+    background-size: cover;
+    overflow: scroll;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.color-container{
+    background-color: orange;
+    width: 300px;
+    height: 150px;
+    color: white;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+    border: solid white 3px;
+    border-radius: 20px;
+}
+
+.footer{
+    padding-bottom: 20px;
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    
+}
